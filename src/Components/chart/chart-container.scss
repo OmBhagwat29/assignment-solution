@@ -1,0 +1,21 @@
+
+@import '../SCSS Variables/scss-variables.scss';
+
+.chart__container--chart{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.chart__container{
+    height: 700px;
+    width: 80%;
+    margin: 100px auto;
+
+    &  .container__heading{
+        color: $main-heading-color;
+        font-family: $font-style;
+    }
+}
+
